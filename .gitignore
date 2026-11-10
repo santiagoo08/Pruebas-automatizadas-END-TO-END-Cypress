@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Cypress runtime artifacts
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+
+# Playwright temporary caches
+.playwright-mcp/
+playwright-report/
+test-results/
+
+# Environment & secrets
+.env
+.env.*
+*.pem
+*.key
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
