@@ -4,14 +4,14 @@
 //
 // This is a great place to put global configuration and
 // behavior that modifies Cypress.
-//
-// You can change the location of this file or turn off
-// automatically serving support files with the
-// 'supportFile' configuration option.
-//
-// You can read more here:
-// https://on.cypress.io/configuration
 // ***********************************************************
 
-// Import commands.js using ES2015 syntax:
 import './commands'
+
+// Ignore third-party script errors from external production sites (YouTube / iLovePDF)
+Cypress.on('uncaught:exception', () => false)
+
+// Prevent ServiceWorkers on SPA sites like YouTube from blocking Cypress page-load events
+Cypress.on('window:before:load', (win) => {
+  delete win.navigator.serviceWorker
+})
