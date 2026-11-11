@@ -7,7 +7,7 @@ Suite de pruebas automatizadas End-to-End (E2E) y documentación técnica paso a
 | Plataforma | URL Base | Casos Evaluados | Spec de Cypress | Estado |
 | :--- | :--- | :---: | :--- | :---: |
 | **iLovePDF (ES)** | `https://www.ilovepdf.com/es` | 4 | [`cypress/e2e/ilovepdf.cy.js`](cypress/e2e/ilovepdf.cy.js) | `4/4 PASS` |
-| **YouTube** | `https://www.youtube.com` | 4 | [`cypress/e2e/youtube.cy.js`](cypress/e2e/youtube.cy.js) | `3/3 PASS` |
+| **YouTube** | `https://www.youtube.com` | 4 | [`cypress/e2e/youtube.cy.js`](cypress/e2e/youtube.cy.js) | `4/4 PASS` |
 
 ---
 

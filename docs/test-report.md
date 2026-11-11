@@ -7,7 +7,7 @@ End-to-end functional verification of **iLovePDF (`https://www.ilovepdf.com/es`)
 | Target Application | Base URL | Flows Verified | Playwright Live | Cypress E2E Spec | Status |
 | :--- | :--- | :---: | :---: | :--- | :---: |
 | **iLovePDF (ES)** | `https://www.ilovepdf.com/es` | 4 | PASS | `cypress/e2e/ilovepdf.cy.js` (4/4) | PASS |
-| **YouTube** | `https://www.youtube.com` | 4 | PASS | `cypress/e2e/youtube.cy.js` (3/3) | PASS |
+| **YouTube** | `https://www.youtube.com` | 4 | PASS | `cypress/e2e/youtube.cy.js` (4/4) | PASS |
 
 ## Quick Path — Run Automated Tests Locally
 
